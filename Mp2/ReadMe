@@ -1,1 +1,13 @@
-
+There is a room with 3 Wi-Fi access points (their locations are known). 
+You are given the RSSI measurements from all 3 access points (APs) at N unique locations in the room, 
+as well as the phone’s orientation when the measurement was taken.
+Let’s call this the “offline phase”, and call the collected data "fingerprints". 
+In the “online phase”, a user in the room walks along a straight line. 
+Given the RSSI measurements collected by this user’s smartphone and the Wi-Fi fingerprints collected during the off-line phase,
+your task is to find the beginning and end locations of this user’s 
+walk.offline.csv contains data for the off-line phase and has 5 columns: 
+(x, y, alpha, SSID, RSSI). 
+1-walk-*.csv contain data collected during the on-line phase and has 3 columns:
+(SSID, Time, RSSI)
+ap_locations_1.csv contains the coordinates of each AP. This data is only needed if you want to implement optional optimizations.
+=

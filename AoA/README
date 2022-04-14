@@ -1,1 +1,2 @@
-
+We will provide you with the location of these eight devices L0​,L1​,…,L7​, their microphone array configuration, and the recordings from each of these devices D0​,D1​,…,D7​. Your algorithm should take D0​,D1​,…D7​ and L0​,L1​,…L7​ as input and output the location of the user Lx​.You can tackle this problem by doing AoA on all eight devices and then use triangulation to find the user
+location.
